@@ -18,9 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/events', (req, res) => {
-  console.log(req.body);
-
-  pusher.trigger('github', 'push-event', {
+  pusher.trigger('github', 'push', {
     payload: req.body,
   });
 
