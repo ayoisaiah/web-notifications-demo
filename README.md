@@ -1,6 +1,6 @@
 # Realtime Web Notifications Demo
 
-This application sends a web notification whenever there is push activity on a GitHub repo. Article:
+This application sends a web notification whenever there is push activity on a GitHub repo. Article: https://pusher.com/tutorials/html5-notification-api
 
 ## Getting Started
 
